@@ -6,11 +6,11 @@ body {
 .container {
   max-width: 500px;
   margin: auto;
-  justify-items: center;
 }
 
-.display {
-    width: 490px;
+.display{
+  display: block;
+  margin: 0 auto;
 }
 
 .buttons-container {

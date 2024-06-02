@@ -5,6 +5,20 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: rgb(223, 245, 188);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 59, 252);
+}
+
+a {
+  color: rgb(221, 2, 221);
+  text-decoration: none;
 }
 
 .container {
@@ -37,10 +51,41 @@ body {
   margin-top: 30px;
 }
 
-.buttons-container button {
-  border-radius: 40%;
+button {
+  border-radius: 50px;
+  border: black solid;
   font-size: 30px;
+  cursor: pointer;
 }
 
-.number-value {
+.number-value:hover {
+  background-color: rgba(255, 255, 255, 0.664);
+}
+
+.number-value:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.function {
+  background-color: rgb(255, 230, 0);
+}
+
+.function:hover {
+  background-color: rgb(184, 165, 0);
+}
+
+.function:active {
+  background-color: rgb(255, 230, 0);
+}
+
+.function-clear {
+  background-color: rgb(255, 81, 0);
+}
+
+.function-clear:hover {
+  background-color: rgb(172, 54, 0);
+}
+
+.function-clear:active {
+  background-color: rgb(255, 81, 0);
 }

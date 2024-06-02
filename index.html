@@ -4,31 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css"></link>
+    <script src="script.js"></script>
     <title>Calculator</title>
   </head>
   <body>
-    <h1>Welcome to My Calculator Project</h1>
-    <h3>Feel Free to use this Calculator as you please</h3>
-    <div class="container">
-      <input class="display" type="text" />
-      <div class="buttons-container">
-        <button class="number-value">7</button>
-        <button class="number-value">8</button>
-        <button class="number-value">9</button>
-        <button class="function">/</button>
-        <button class="number-value">4</button>
-        <button class="number-value">5</button>
-        <button class="number-value">6</button>
-        <button class="function">x</button>
-        <button class="number-value">1</button>
-        <button class="number-value">2</button>
-        <button class="number-value">3</button>
-        <button class="function">-</button>
-        <button class="number-value">0</button>
-        <button class="function">.</button>
-        <button class="function">=</button>
-        <button class="function">+</button>
-        <button class="function">C</button>
+    <header>
+      <h1>Welcome to My Calculator Project</h1>
+      <h3>Created by <a target="_blank" href="https://github.com/BrachoDev">BrachoDev</a></h3>  
+    </header>
+    <div id="container" class="container">
+      <input id="display" class="display" type="text" readonly />
+      <div id="buttons-container" class="buttons-container">
+        <button id="number-value" class="number-value">7</button>
+        <button id="number-value" class="number-value">8</button>
+        <button id="number-value" class="number-value">9</button>
+        <button id="function" class="function">/</button>
+        <button id="number-value" class="number-value">4</button>
+        <button id="number-value" class="number-value">5</button>
+        <button id="number-value" class="number-value">6</button>
+        <button id="function" class="function">x</button>
+        <button id="number-value" class="number-value">1</button>
+        <button id="number-value" class="number-value">2</button>
+        <button id="number-value" class="number-value">3</button>
+        <button id="function" class="function">-</button>
+        <button id="number-value" class="number-value">0</button>
+        <button id="number-value" class="number-value">.</button>
+        <button id="function" class="function">=</button>
+        <button id="function" class="function">+</button>
+        <button id="function-clear" class="function-clear">C</button>
       </div>
     </div>
   </body>

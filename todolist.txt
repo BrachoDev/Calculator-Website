@@ -1,0 +1,3 @@
+To Do list:
+1. add responsiveness
+2. change font to make it look in mobile devices

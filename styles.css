@@ -99,6 +99,9 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    overflow:hidden;
+  }
   h1,
   h3 {
     display: none;
@@ -108,6 +111,7 @@ button {
     width: 100vw;
     height: 100vh;
     border-radius: 0px;
+    overflow:hidden;
   }
 
   .display {

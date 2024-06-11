@@ -2,6 +2,7 @@
   font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -98,17 +99,13 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  * {
-    overflow: hidden;
-  }
-
   h1,
   h3 {
     display: none;
   }
 
   .container {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     border-radius: 0px;
   }
